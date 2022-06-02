@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-color: #1a1a1a;
+    background-color: #111111;
 }
 
 p {
@@ -29,7 +29,7 @@ h3 {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/stockholm-4184548.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background-grey.jpg);
     /* background-image: url(images/stockholm-4184548.jpg); */
     background-position: center;
     background-size: cover;
@@ -187,7 +187,7 @@ nav .fa-solid {
     text-align: center;
     visibility: visible; */
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: #111111;
     /* text-align: center; */
 }
 
@@ -445,6 +445,20 @@ h4 {
     padding-right: 20px;
 }
 
+/* rights */
+.rights {
+    text-align: center;
+}
+
+.rights p {
+    color: #666666
+}
+
+.rights a {
+    color: #666666;
+    text-decoration: none;
+}
+
 /* other */
 .float-button {
     position: fixed;
@@ -453,7 +467,7 @@ h4 {
     bottom: 40px;
     right: 40px;
     background-color: #fff;
-    color: #1a1a1a;
+    color: #111111;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
