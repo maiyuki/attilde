@@ -1,0 +1,68 @@
+{
+    "header": {
+        "language": "en",
+        "slogan": "IT Consulting Firm"
+    },
+    "menu": {
+        "header": "HOME",
+        "service": "SERVICES",
+        "certificate": "CERTIFICATIONS",
+        "about": "ABOUT ATTILDE",
+        "contact": "CONTACT"
+    },
+    "service": {
+        "title": "Services",
+        "text": "Attilde is an IT consulting company that works with automation, Cloud infrastructure, and DevOps. Do you need reinforcement in these areas in your organization?",
+        "text-mail": "Send us an <a href='mailto:attilde@proton.me' style='color: #C69C6D; text-decoration: none;'>e-mail</a> and we can have a conversation.",
+        "automation": {
+            "title": "Automation",
+            "text": "Repetitive processes and provisioning are some of the processes that we are happy to automate to help dev and ops perform their work autonomously and efficiently. We use Infrastructure as Code and Configuration Management tools to achieve the desired state of an environment."
+        },
+        "cloudinfra": {
+            "title": "Cloud Infrastructure",
+            "text": "Cloud technology has opened up the possibility for companies and organizations to quickly distribute their services and scale their operations. With our expertise in Cloud, we can help our customers build a competitive platform. AWS and Openstack are the clouds we work mainly in."
+        },
+        "devops": {
+            "title": "DevOps",
+            "text": "In a fast-growing and fast-changing IT society, collaborations between tech teams are needed more than ever. We at Attilde work with DevOps and in a DevOps culture. We collaborate with different teams where the focus is on supporting development, sharing knowledge, and creating a good developer experience between devs and ops."
+        }
+    },
+    "certificate": {
+        "title": "Certificates",
+        "text": "Technologies are fast-changing. We regularly attend trainings and conferences to keep our knowledge up to date to provide our customers with the right competence."
+    },
+    "about": {
+        "title": "About Attilde",
+        "company": {
+            "title": "The company",
+            "text": "Attilde is an IT consulting company that works with Automation, Cloud Infrastructure, and DevOps. We help our customers to build and operate environments on the modern platforms and work to adopt DevOps methodology where dev and ops work together to achieve an understanding and shared responsibility and ownership.",
+            "text-2": "We want to help companies build a stable and scalable platform with modern technology. Thus, we attend trainings on a regular basis and visit events and summits to be up to date with trends and technologies."
+        }
+    },
+    "contact": {
+        "consult": {
+            "title": "Consultant for your team",
+            "text": "We work with longer assignments but also shorter assignments. We work both on-site and remotely and are mainly located in central parts of Stockholm and Solna."
+        },
+        "collaboration": {
+            "title": "Collaboration with Attilde",
+            "text": "We collaborate with other actors. It can be other consulting companies or smaller companies that need our expertise. A collaboration with Attilde is a collaboration where we have a mutual dialogue and both parties should feel satisfied. We believe in collaboration between people and that we can achieve better and faster results by working together."
+        }
+    },
+    "banner": {
+        "text-banner": "Thoughts or questions? Send us an <a href='mailto:attilde@proton.me'>e-mail</a>!"
+    },
+    "footer": {
+        "contact": {
+            "mail": {
+                "title": "Contact"
+            },
+            "address": {
+                "title": "Postal address"
+            }
+        }
+    },
+    "container": {
+        "text": "We have cookies! For more info about our cookies find them here => <a href='https://attilde.com/cookies.htm'>Use of cookies </a>."
+    }
+}

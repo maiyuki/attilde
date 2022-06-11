@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,13 +10,11 @@
     <meta name="author" content="Attilde AB">
     <title>Attilde</title>
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images/tilde_favicon.png" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="../images/tilde_favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/96c515d318.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ9GSELM03"></script>
@@ -27,16 +25,17 @@
 
         gtag('config', 'G-YZ9GSELM03');
     </script>
+    <script src="../js/app.js"></script>
 </head>
 
 <body>
     <header>
         <section class="header" id="header">
             <div class="text-box">
-                <a class="logo" href="index.html"><img src="images/attilde_logo_white.svg" alt="attilde_logo"></a>
+                <a class="logo" href="index.html"><img src="../images/attilde_logo_white.svg" alt="attilde_logo"></a>
                 <h3>IT Consulting Firm</h3>
                 <div class="icon">
-                    <img src="images/attilde_icon.svg" alt="attilde_icon.svg">
+                    <img src="../images/attilde_icon.svg" alt="attilde_icon.svg">
                 </div>
                 <!-- <a class="hero-btn" href="mailto:attilde@proton.me">attilde@proton.me</a> -->
 
@@ -49,11 +48,11 @@
             <div class="navbar" id="navbar">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="#header" class="scroll">HEM</a></li>
-                    <li><a href="#service" class="scroll">TJÄNSTER</a></li>
-                    <!-- <li><a href="#certificate" class="scroll">CERTIFIERING</a></li> -->
-                    <li><a href="#about" class="scroll">OM ATTILDE</a></li>
-                    <li><a href="#contact" class="scroll">KONTAKT</a></li>
+                    <li><a href="#header" class="scroll">HOME</a></li>
+                    <li><a href="#service" class="scroll">SERVICES</a></li>
+                    <!-- <li><a href="#certificate" class="scroll" data-t="menu.certificate"></a></li> -->
+                    <li><a href="#about" class="scroll">ABOUT ATTILDE</a></li>
+                    <li><a href="#contact" class="scroll">CONTACT</a></li>
                 </ul>
             </div>
             <p></p>
@@ -62,55 +61,41 @@
     </section>
     <section class="service" id="service">
         <div class="icon">
-            <img src="images/attilde_icon.svg" alt="attilde_icon.svg">
+            <img src="../images/attilde_icon.svg" alt="attilde_icon.svg">
         </div>
-        <h4>Tjänster</h4>
+        <h4>Services</h4>
         <div class="icon-2">
-            <img src="images/tilde_icon.svg" alt="attilde_icon.svg">
+            <img src="../images/tilde_icon.svg" alt="attilde_icon.svg">
         </div>
         <div class="row-text-wide">
-            <p>Attilde är ett IT-konsultföretag som arbetar inom automation, Cloud infrastruktur och DevOps. Behöver ni
-                förstärkning inom dessa områden i er organisation?
-            </p>
+            <p>Attilde is an IT consulting company that works with automation, Cloud infrastructure, and DevOps. Do you need reinforcement in these areas in your organization?</p>
 
-            <p>Skicka oss ett <a href="mailto:attilde@proton.me" style="color: #C69C6D; text-decoration: none;">mail</a>
-                så kan vi ta ett samtal.</p>
+            <p>Send us an <a href='mailto:attilde@proton.me' style='color: #C69C6D; text-decoration: none;'>e-mail</a> and we can have a conversation.</p>
         </div>
         <div class="row">
             <div class="service-col-3">
                 <h3>Automation</h3>
-                <p>Repetitiva processer och provisionering är några av de processer som vi gärna automatiserar för att
-                    hjälpa dev och ops utföra sina arbeta autonoma och effektivt. Vi använder oss av Infrastructure as
-                    Code och Configuration Management tools för att uppnå en idempotent miljö.</p>
+                <p>Repetitive processes and provisioning are some of the processes that we are happy to automate to help dev and ops perform their work autonomously and efficiently. We use Infrastructure as Code and Configuration Management tools to achieve the desired state of an environment.</p>
+                <p></p>
             </div>
             <div class="service-col-3">
-                <h3>Cloud infrastruktur</h3>
-                <p>Cloud teknologi har öppnat upp möjligheten för företag och organisationer att snabbt kunna
-                    distribuera sina tjänster och skala sin verksamhet. Med vår kompetens inom Cloud kan vi hjälpa våra
-                    kunder att bygga en konkurrenskraftig plattform. AWS och Openstack är de moln vi arbetar främst i.
-                </p>
+                <h3>Cloud Infrastructure</h3>
+                <p>Cloud technology has opened up the possibility for companies and organizations to quickly distribute their services and scale their operations. With our expertise in Cloud, we can help our customers build a competitive platform. AWS and Openstack are the clouds we work mainly in.</p>
             </div>
             <div class="service-col-3">
                 <h3>DevOps</h3>
-                <p>I en snabbväxande och snabbväxlande IT samhälle behövs samarbeten mer än någonsin mellan
-                    tech teams. Vi på Attilde arbetar med DevOps och i en DevOps kultur. Vi kollaborera med olika teams
-                    där fokus är att supportera utvecklingen, dela kunskaper och skapa en bra utvecklarupplevelse
-                    mellan devs och ops.
-                </p>
+                <p>In a fast-growing and fast-changing IT society, collaborations between tech teams are needed more than ever. We at Attilde work with DevOps and in a DevOps culture. We collaborate with different teams where the focus is on supporting development, sharing knowledge, and creating a good developer experience between devs and ops.</p>
             </div>
         </div>
     </section>
 
     <!-- <section class="certificate" id="certificate">
-        <h4>Certifieringar</h4>
+        <h4 data-t="certificate.title"></h4>
         <div class="icon-2">
             <img src="images/tilde_icon.svg" alt="attilde_icon.svg">
         </div>
         <div class="row-text-wide">
-            <p>
-                Teknologier utvecklas varje dag och därmed går vi regelbundet på utbildningar och konferenser att kunna
-                förse våra kunder med rätt kompentens.
-            </p>
+            <p data-t="certificate.text"></p>
         </div>
         <div class="certs">
             <img src="images/aws_devops_cert.png" alt="aws_devops_cert">
@@ -120,49 +105,36 @@
 
     <section class="about" id="about">
         <div class="icon">
-            <img src="images/attilde_icon.svg" alt="attilde_icon.svg">
+            <img src="../images/attilde_icon.svg" alt="attilde_icon.svg">
         </div>
-        <h4>Om Attilde</h4>
+        <h4>About Attilde</h4>
         <div class="icon-2">
-            <img src="images/tilde_icon.svg" alt="attilde_icon.svg">
+            <img src="../images/tilde_icon.svg" alt="attilde_icon.svg">
         </div>
         <div class="row">
             <div class="col-2">
-                <h4>Företaget</h4>
-                <p>
-                    Attilde är ett IT-konsultbolag med fokus på automation, Cloud infrastruktur och DevOps. Vi hjälper
-                    våra kunder att bygga och drifta miljöer i de moderna plattformarna samt arbetar med att anamma
-                    DevOps arbetsmetodiken där dev och ops samarbeta för att uppnå en förståelse och gemensamt ansvar
-                    och ägandeskap.
-                </p>
+                <h4>The company</h4>
+                <p>Attilde is an IT consulting company that works with Automation, Cloud Infrastructure, and DevOps. We help our customers to build and operate environments on the modern platforms and work to adopt DevOps methodology where dev and ops work together to achieve an understanding and shared responsibility and ownership.</p>
 
-                <p>
-                    Attilde bildades i syfte att vara där vi behövs. Vi vill hjälpa företag att bygga en stabil och
-                    skalbar plattform med modern teknik. Därmed vidareutbildar vi oss med jämna mellanrum, besöker
-                    events och summits för att vara ajour med trender.
-                </p>
+                <p>We want to help companies build a stable and scalable platform with modern technology. Thus, we attend trainings on a regular basis and visit events and summits to be up to date with trends and technologies.</p>
             </div>
             <div class="col-2 about-col-2-img">
-                <img src="images/stockholm.jpg" alt="Stockholm">
+                <img src="../images/stockholm.jpg" alt="Stockholm">
                 <div class="about-img-layer">
-                    <h4>Hello World! :)</h4>
+                    <h4>Hello World!</h4>
                 </div>
             </div>
-    </section>
+    </div></section>
 
     <section class="contact" id="contact">
         <div class="row">
             <div class="col-2">
-                <h4>Konsult till ert team</h4>
-                <p>Vi arbetar med längre uppdrag men även kortare uppdrag. Vi arbetar både on-site och remote och
-                    befinner oss främst i centrala delar av Stockholm och Solna.</p>
+                <h4>Consultant for your team</h4>
+                <p>We work with longer assignments but also shorter assignments. We work both on-site and remotely and are mainly located in central parts of Stockholm and Solna.</p>
             </div>
             <div class="col-2">
-                <h4>Samarbete med Attilde</h4>
-                <p>Vi samarbetar med andra aktörer. Det kan vara andra konsultbolag eller mindre bolag
-                    som är i behov av vår kompetens. Ett samarbete med Attilde ska kännas tryggt där vi har en ömsesidig
-                    dialog och båda parter ska känna sig nöjda.
-                </p>
+                <h4>Collaboration with Attilde</h4>
+                <p>We collaborate with other actors. It can be other consulting companies or smaller companies that need our expertise. A collaboration with Attilde is a collaboration where we have a mutual dialogue and both parties should feel satisfied. We believe in collaboration between people and that we can achieve better and faster results by working together.</p>
             </div>
         </div>
         <!-- <div class="contact-btn">
@@ -171,13 +143,13 @@
     </section>
 
     <section class="banner" id="banner">
-        <p>Funderingar eller frågor? <a href="mailto:attilde@proton.me">Maila</a> oss!
+        <p>Thoughts or questions? Send us an <a href='mailto:attilde@proton.me'>e-mail</a>!</p>
     </section>
 
     <section class="footer" id="footer">
         <div class="row">
             <div class="footer-col-4">
-                <a class="logo-footer" href="index.html"><img src="images/attilde_logo_white.svg" alt="Attilde"></a>
+                <a class="logo-footer" href="index.html"><img src="../images/attilde_logo_white.svg" alt="Attilde"></a>
                 <br>
                 <dvi class="social-media-icons">
                     <a href="https://www.facebook.com/attilde">
@@ -192,25 +164,26 @@
                     <!-- <a href="https://www.facebook.com/attilde">
                         <i class="fa-brands fa-github"></i>
                     </a> -->
+                    <br>
+                    <br>
+                    <a href="https://www.attilde.com/">SV /</a> <a href="https://www.attilde.com/en">EN</a>
+
                 </dvi>
 
             </div>
             <div class="footer-col-4">
-                <h4>Kontakt</h4>
-                <p>
-                    <a href="mailto:attilde@proton.me">attilde@proton.me</a>
-                </p>
+                <h4>Contact</h4>
+                <p> <a href="mailto:attilde@proton.me">attilde@proton.me</a></p>
             </div>
             <div class="footer-col-4">
                 <h4>Attilde AB</h4>
                 <p>Org. nr: 559382-8964</p>
             </div>
             <div class="footer-col-4">
-                <!-- <p>SV / EN</p> -->
-                <h4>Postadress</h4>
+                <h4>Postal address</h4>
                 <p> Norrbackagatan 25B, <br> 113 34 Stockholm, SE</p>
             </div>
-    </section>
+    </div></section>
     <section class="rights" id="rights">
         <p>attilde.com © 2022 | <a href="cookies.html">Cookies</a></p>
     </section>
@@ -226,13 +199,9 @@
     <div class="container">
         <div class="cookie-popup cookie-popup--short cookie-popup--dark">
 
-            <div>
-                Vi har kakor! För mer info om våra kakor finner du där => <a href="https://attilde.com/cookies.html">use
-                    of
-                    cookies</a>.
-            </div>
+            <div>We have cookies! For more info about our cookies find them here => <a href='https://attilde.com/cookies.htm'>Use of cookies </a>.</div>
             <div class="cookie-popup-actions">
-                <button>Okay</button>
+                <button>OK</button>
             </div>
 
         </div>

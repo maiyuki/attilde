@@ -1,0 +1,69 @@
+{
+    "header": {
+        "language": "sv",
+        "slogan": "IT konsultfirma"
+    },
+    "menu": {
+        "header": "HEM",
+        "service": "TJÄNSTER",
+        "certificate": "CERTIFIERING",
+        "about": "OM ATTILDE",
+        "contact": "KONTAKT"
+    },
+    "service": {
+        "title": "Tjänster",
+        "text": "Attilde är ett IT-konsultföretag som arbetar inom automation, Cloud infrastruktur och DevOps. Behöver ni förstärkning inom dessa områden i er organisation?",
+        "text-mail": "Skicka oss ett <a href='mailto:attilde@proton.me' style='color: #C69C6D; text-decoration: none;'>mail</a> så kan vi ta ett samtal.",
+        "automation": {
+            "title": "Automation",
+            "text": "Repetitiva processer och provisionering är några av de processer som vi gärna automatiserar för att hjälpa dev och ops utföra sina arbeta autonoma och effektivt. Vi använder oss av Infrastructure as Code och Configuration Management tools för att uppnå en idempotent miljö."
+        },
+        "cloudinfra": {
+            "title": "Cloud infrastruktur",
+            "text": "Cloud teknologi har öppnat upp möjligheten för företag och organisationer att snabbt kunna distribuera sina tjänster och skala sin verksamhet. Med vår kompetens inom Cloud kan vi hjälpa våra kunder att bygga en konkurrenskraftig plattform. AWS och Openstack är de moln vi arbetar främst i."
+        },
+        "devops": {
+            "title": "DevOps",
+            "text": "I en snabbväxande och snabbväxlande IT samhälle behövs samarbeten mer än någonsin mellan tech teams. Vi på Attilde arbetar med DevOps och i en DevOps kultur. Vi kollaborera med olika teams där fokus är att supportera utvecklingen, dela kunskaper och skapa en bra utvecklarupplevelse mellan devs och ops."
+        }
+    },
+    "certificate": {
+        "title": "Certifieringar",
+        "text": "Teknologier utvecklas varje dag och därmed går vi regelbundet på utbildningar och konferenser att kunna förse våra kunder med rätt kompentens."
+    },
+    "about": {
+        "title": "Om Attilde",
+        "company": {
+            "title": "Företaget",
+            "text": "Attilde är ett IT-konsultbolag med fokus på automation, Cloud infrastruktur och DevOps. Vi hjälper våra kunder att bygga och drifta miljöer i de moderna plattformarna samt arbetar med att anamma DevOps arbetsmetodiken där dev och ops samarbeta för att uppnå en förståelse och gemensamt ansvar och ägandeskap.",
+            "text-2": "Attilde bildades i syfte att vara där vi behövs. Vi vill hjälpa företag att bygga en stabil och skalbar plattform med modern teknik. Därmed vidareutbildar vi oss med jämna mellanrum, besöker events och summits för att vara ajour med trender."
+        }
+    },
+    "contact": {
+        "consult": {
+            "title": "Konsult till ert team",
+            "text": "Vi arbetar med längre uppdrag men även kortare uppdrag. Vi arbetar både on-site och remote och befinner oss främst i centrala delar av Stockholm och Solna."
+        },
+        "collaboration": {
+            "title": "Samarbete med Attilde<",
+            "text": "Vi samarbetar med andra aktörer. Det kan vara andra konsultbolag eller mindre bolag som är i behov av vår kompetens. Ett samarbete med Attilde ska kännas tryggt där vi har en ömsesidig dialog och båda parter ska känna sig nöjda."
+        }
+    },
+    "banner": {
+        "text-banner": "Funderingar eller frågor? <a href='mailto:attilde@proton.me'>Maila</a> oss!"
+    },
+    "footer": {
+        "contact": {
+            "mail": {
+                "title": "Kontakt",
+                "mail": "<a href='mailto:attilde@proton.me'>attilde@proton.me</a>"
+            },
+            "address": {
+                "title": "Postadress"
+            }
+        }
+    },
+    "container": {
+        "text": "Vi har kakor! För mer info om våra kakor finner du här => <a href='https://attilde.com/cookies.htm'>Use of cookies </a>."
+    }
+}

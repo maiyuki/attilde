@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT konsultverksamhet inom automation, Cloud infrastruktur och DevOps">
+    <meta name="keywords" content="DevOps, Cloud, moln, Automation, Stockholm, IT, företag, Attilde">
+    <meta name="author" content="Attilde AB">
+    <title>Attilde</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/tilde_favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96c515d318.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ9GSELM03"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YZ9GSELM03');
+    </script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="header" id="header">
+            <div class="text-box">
+                <a class="logo" href="index.html"><img src="images/attilde_logo_white.svg" alt="attilde_logo"></a>
+                <h3>IT konsultfirma</h3>
+                <div class="icon">
+                    <img src="images/attilde_icon.svg" alt="attilde_icon.svg">
+                </div>
+                <!-- <a class="hero-btn" href="mailto:attilde@proton.me">attilde@proton.me</a> -->
+
+            </div>
+        </section>
+    </header>
+    <section class="menu" id="menu">
+        <nav>
+            <p></p>
+            <div class="navbar" id="navbar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#header" class="scroll">HEM</a></li>
+                    <li><a href="#service" class="scroll">TJÄNSTER</a></li>
+                    <!-- <li><a href="#certificate" class="scroll" data-t="menu.certificate"></a></li> -->
+                    <li><a href="#about" class="scroll">OM ATTILDE</a></li>
+                    <li><a href="#contact" class="scroll">KONTAKT</a></li>
+                </ul>
+            </div>
+            <p></p>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="service" id="service">
+        <div class="icon">
+            <img src="images/attilde_icon.svg" alt="attilde_icon.svg">
+        </div>
+        <h4>Tjänster</h4>
+        <div class="icon-2">
+            <img src="images/tilde_icon.svg" alt="attilde_icon.svg">
+        </div>
+        <div class="row-text-wide">
+            <p>Attilde är ett IT-konsultföretag som arbetar inom automation, Cloud infrastruktur och DevOps. Behöver ni förstärkning inom dessa områden i er organisation?</p>
+
+            <p>Skicka oss ett <a href='mailto:attilde@proton.me' style='color: #C69C6D; text-decoration: none;'>mail</a> så kan vi ta ett samtal.</p>
+        </div>
+        <div class="row">
+            <div class="service-col-3">
+                <h3>Automation</h3>
+                <p>Repetitiva processer och provisionering är några av de processer som vi gärna automatiserar för att hjälpa dev och ops utföra sina arbeta autonoma och effektivt. Vi använder oss av Infrastructure as Code och Configuration Management tools för att uppnå en idempotent miljö.</p>
+                <p></p>
+            </div>
+            <div class="service-col-3">
+                <h3>Cloud infrastruktur</h3>
+                <p>Cloud teknologi har öppnat upp möjligheten för företag och organisationer att snabbt kunna distribuera sina tjänster och skala sin verksamhet. Med vår kompetens inom Cloud kan vi hjälpa våra kunder att bygga en konkurrenskraftig plattform. AWS och Openstack är de moln vi arbetar främst i.</p>
+            </div>
+            <div class="service-col-3">
+                <h3>DevOps</h3>
+                <p>I en snabbväxande och snabbväxlande IT samhälle behövs samarbeten mer än någonsin mellan tech teams. Vi på Attilde arbetar med DevOps och i en DevOps kultur. Vi kollaborera med olika teams där fokus är att supportera utvecklingen, dela kunskaper och skapa en bra utvecklarupplevelse mellan devs och ops.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="certificate" id="certificate">
+        <h4 data-t="certificate.title"></h4>
+        <div class="icon-2">
+            <img src="images/tilde_icon.svg" alt="attilde_icon.svg">
+        </div>
+        <div class="row-text-wide">
+            <p data-t="certificate.text"></p>
+        </div>
+        <div class="certs">
+            <img src="images/aws_devops_cert.png" alt="aws_devops_cert">
+            <img src="images/kubernetes_cka.png" alt="kubernetes_cka_cert">
+        </div>
+    </section> -->
+
+    <section class="about" id="about">
+        <div class="icon">
+            <img src="images/attilde_icon.svg" alt="attilde_icon.svg">
+        </div>
+        <h4>Om Attilde</h4>
+        <div class="icon-2">
+            <img src="images/tilde_icon.svg" alt="attilde_icon.svg">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h4>Företaget</h4>
+                <p>Attilde är ett IT-konsultbolag med fokus på automation, Cloud infrastruktur och DevOps. Vi hjälper våra kunder att bygga och drifta miljöer i de moderna plattformarna samt arbetar med att anamma DevOps arbetsmetodiken där dev och ops samarbeta för att uppnå en förståelse och gemensamt ansvar och ägandeskap.</p>
+
+                <p>Attilde bildades i syfte att vara där vi behövs. Vi vill hjälpa företag att bygga en stabil och skalbar plattform med modern teknik. Därmed vidareutbildar vi oss med jämna mellanrum, besöker events och summits för att vara ajour med trender.</p>
+            </div>
+            <div class="col-2 about-col-2-img">
+                <img src="images/stockholm.jpg" alt="Stockholm">
+                <div class="about-img-layer">
+                    <h4>Hello World!</h4>
+                </div>
+            </div>
+    </div></section>
+
+    <section class="contact" id="contact">
+        <div class="row">
+            <div class="col-2">
+                <h4>Konsult till ert team</h4>
+                <p>Vi arbetar med längre uppdrag men även kortare uppdrag. Vi arbetar både on-site och remote och befinner oss främst i centrala delar av Stockholm och Solna.</p>
+            </div>
+            <div class="col-2">
+                <h4>Samarbete med Attilde<</h4>
+                <p>Vi samarbetar med andra aktörer. Det kan vara andra konsultbolag eller mindre bolag som är i behov av vår kompetens. Ett samarbete med Attilde ska kännas tryggt där vi har en ömsesidig dialog och båda parter ska känna sig nöjda.</p>
+            </div>
+        </div>
+        <!-- <div class="contact-btn">
+            <a class="hero-btn" href="mailto:">attilde@proton.me</a>
+        </div> -->
+    </section>
+
+    <section class="banner" id="banner">
+        <p>Funderingar eller frågor? <a href='mailto:attilde@proton.me'>Maila</a> oss!</p>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="row">
+            <div class="footer-col-4">
+                <a class="logo-footer" href="index.html"><img src="images/attilde_logo_white.svg" alt="Attilde"></a>
+                <br>
+                <dvi class="social-media-icons">
+                    <a href="https://www.facebook.com/attilde">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/attilde">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/at.tilde/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <!-- <a href="https://www.facebook.com/attilde">
+                        <i class="fa-brands fa-github"></i>
+                    </a> -->
+                    <br>
+                    <br>
+                    <a href="https://www.attilde.com/">SV /</a> <a href="https://www.attilde.com/en">EN</a>
+
+                </dvi>
+
+            </div>
+            <div class="footer-col-4">
+                <h4>Kontakt</h4>
+                <p> <a href="mailto:attilde@proton.me">attilde@proton.me</a></p>
+            </div>
+            <div class="footer-col-4">
+                <h4>Attilde AB</h4>
+                <p>Org. nr: 559382-8964</p>
+            </div>
+            <div class="footer-col-4">
+                <h4>Postadress</h4>
+                <p> Norrbackagatan 25B, <br> 113 34 Stockholm, SE</p>
+            </div>
+    </div></section>
+    <section class="rights" id="rights">
+        <p>attilde.com © 2022 | <a href="cookies.html">Cookies</a></p>
+    </section>
+
+    <!-- Message -->
+    <a href="mailto:attilde@proton.me?subject=Hello from attilde.com!" class="float-button">
+        <i class="fa-solid fa-envelope icon-float"></i>
+    </a>
+
+    <!-- Cookies -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@800&family=Montserrat&display=swap" rel="stylesheet">
+
+    <div class="container">
+        <div class="cookie-popup cookie-popup--short cookie-popup--dark">
+
+            <div>Vi har kakor! För mer info om våra kakor finner du här => <a href='https://attilde.com/cookies.htm'>Use of cookies </a>.</div>
+            <div class="cookie-popup-actions">
+                <button>OK</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript for toggle menu and scroll-->
+    <script>
+        window.onscroll = scroll;
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function scroll() {
+            if (window.pageYOffset > sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+
+        // window.onscroll = function () { myFunction() };
+
+        // var navbar = document.getElementById("navbar");
+        // var sticky = navbar.offsetTop;
+
+        // function myFunction() {
+        //     if (window.pageYOffset >= sticky) {
+        //         navbar.classList.add("sticky")
+        //     } else {
+        //         navbar.classList.remove("sticky");
+        //     }
+        // }
+
+        var navbar = document.getElementById("navbar");
+        function showMenu() {
+            navbar.style.visibility = "visible";
+        }
+        function hideMenu() {
+            navbar.style.visibility = null;
+        }
+
+        $(document).ready(function () {
+            var docEl = $(document),
+                linkScroll = $('.scroll'),
+                navbar = $('#navbar');
+
+            linkScroll.click(function (e) {
+                e.preventDefault();
+                $('body, html').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 800);
+
+                var display = $('.fa-solid').css('display')
+                if (display == 'block')
+                    hideMenu()
+            });
+        })
+
+        // Cookies
+        /* common fuctions */
+        function el(selector) { return document.querySelector(selector) }
+        function els(selector) { return document.querySelectorAll(selector) }
+        function on(selector, event, action) { els(selector).forEach(e => e.addEventListener(event, action)) }
+        function cookie(name) {
+            let c = document.cookie.split('; ').find(cookie => cookie && cookie.startsWith(name + '='))
+            return c ? c.split('=')[1] : false;
+        }
+
+
+        /* popup button hanler */
+        on('.cookie-popup button', 'click', () => {
+            el('.cookie-popup').classList.add('cookie-popup--accepted');
+            document.cookie = `cookie-accepted=true`
+        });
+
+        /* popup init hanler */
+        if (cookie('cookie-accepted') !== "true") {
+            el('.cookie-popup').classList.add('cookie-popup--not-accepted');
+        }
+    </script>
+</body>
+
+</html>
