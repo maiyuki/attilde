@@ -13,7 +13,7 @@
     "service": {
         "title": "Tjänster",
         "text": "Attilde är ett IT-konsultföretag som arbetar inom automation, Cloud infrastruktur och DevOps. Behöver ni förstärkning inom dessa områden i er organisation?",
-        "text-mail": "Skicka oss ett <a href='mailto:attilde@proton.me' style='color: #C69C6D; text-decoration: none;'>mail</a> så kan vi ta ett samtal.",
+        "text-mail": "Skicka oss ett <a href='mailto:hello@attilde.com' style='color: #C69C6D; text-decoration: none;'>mail</a> så kan vi ta ett samtal.",
         "automation": {
             "title": "Automation",
             "text": "Repetitiva processer och provisionering är några av de processer som vi gärna automatiserar för att hjälpa dev och ops utföra sina arbeta autonoma och effektivt. Vi använder oss av Infrastructure as Code och Configuration Management tools för att uppnå en idempotent miljö."
@@ -50,13 +50,13 @@
         }
     },
     "banner": {
-        "text-banner": "Funderingar eller frågor? <a href='mailto:attilde@proton.me'>Maila</a> oss!"
+        "text-banner": "Funderingar eller frågor? <a href='mailto:hello@attilde.com'>Maila</a> oss!"
     },
     "footer": {
         "contact": {
             "mail": {
                 "title": "Kontakt",
-                "mail": "<a href='mailto:attilde@proton.me'>attilde@proton.me</a>"
+                "mail": "<a href='mailto:hello@attilde.com'>hello@attilde.com</a>"
             },
             "address": {
                 "title": "Postadress"

@@ -13,7 +13,7 @@
     "service": {
         "title": "Services",
         "text": "Attilde is an IT consulting company that works with automation, Cloud infrastructure, and DevOps. Do you need reinforcement in these areas in your organization?",
-        "text-mail": "Send us an <a href='mailto:attilde@proton.me' style='color: #C69C6D; text-decoration: none;'>e-mail</a> and we can have a conversation.",
+        "text-mail": "Send us an <a href='mailto:hello@attilde.com' style='color: #C69C6D; text-decoration: none;'>e-mail</a> and we can have a conversation.",
         "automation": {
             "title": "Automation",
             "text": "Repetitive processes and provisioning are some of the processes that we are happy to automate to help dev and ops perform their work autonomously and efficiently. We use Infrastructure as Code and Configuration Management tools to achieve the desired state of an environment."
@@ -50,7 +50,7 @@
         }
     },
     "banner": {
-        "text-banner": "Thoughts or questions? Send us an <a href='mailto:attilde@proton.me'>e-mail</a>!"
+        "text-banner": "Thoughts or questions? Send us an <a href='mailto:hello@attilde.com'>e-mail</a>!"
     },
     "footer": {
         "contact": {
